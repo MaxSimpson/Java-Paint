@@ -1,0 +1,32 @@
+Colors:
+0 = Black
+1 = Gray
+2 = Magenta
+3 = Pink
+4 = Blue
+5 = Cyan
+6 = Green
+7 = Yellow
+8 = Orange
+9 = Red
+10 = White
+
+Change	Log
+	7/6: Added in colors Red, Orange, Yellow, 	Green, Cyan, Blue, Pink, Magenta, Gray, Black, White.
+	
+	7/7: Developed New Ui with boxes.
+	Added in pencil, eraser, square, circle, and text tools.
+	Added Ui in to current screen layout
+	Added in mouse X and Y cordinate display in bottom right.
+	Added in frame limiter which waits 35ms between frames to prevent hardware from running at 100% while running.
+	
+	7/9: Added in pen feature and if loop that checks if click is in option bar or not
+	Partially implemented in ArrayList for shapes
+	
+	7/13: Pen debugged and working
+	
+	7/14: Added in color id's.
+	
+	7/17: Documented where color button x,y's are. Added in save button.
+	
+	7/18: Added in color changing and color variable to shapes
