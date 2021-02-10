@@ -1,7 +1,7 @@
 import java.awt.Color;
 
-public class pen extends shape{
-	public pen(double _x, double _y, Color _c){
+public class Pen extends Shape {
+	public Pen(double _x, double _y, Color _c){
 		super (_x, _y, _c);
 	}
 	
