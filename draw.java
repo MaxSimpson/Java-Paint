@@ -3,15 +3,17 @@ import java.io.File;
 import java.io.FileNotFoundException;
 
 import java.awt.Color;
+
 public class Draw {
-	
-	public static void ui()throws FileNotFoundException {
-		
+	// Draw UI
+	public static void ui() throws FileNotFoundException {
 		StdDraw.picture(960.0, 60.0, "ui.png");
 		StdDraw.textLeft(1830, 1030, "X: " + StdDraw.mouseX());
 		StdDraw.textLeft(1830, 1000, "Y: " + StdDraw.mouseY());
 		StdDraw.picture(1550, 65, "save.png");
 	}
+
+	// Select colors
 	public static Color checkColors(double x) {
 					Color c = StdDraw.BLACK;
 					if(x < 1091 && !(x < 1010)){

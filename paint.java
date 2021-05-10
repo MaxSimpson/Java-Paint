@@ -10,18 +10,18 @@ import java.awt.Color;
 public class Paint {
 
 	public static void main (String args[]) throws FileNotFoundException {
-		//StdDraw Setup
-		StdDraw.setCanvasSize(1920,1080);
+		// StdDraw Setup
+		StdDraw.setCanvasSize(1920, 1080);
 		StdDraw.setXscale(0.0, 1920.0);
     StdDraw.setYscale(1080.0, 0.0);	
 		StdDraw.enableDoubleBuffering();
 		
-		ArrayList<Shape> entities = new ArrayList<Shape>(); //Makes ArrayList for all entities on canvas
+		// Makes ArrayList for all entities on canvas
+		ArrayList<Shape> entities = new ArrayList<Shape>(); 
 		
-		Scanner input = new Scanner(System.in);
 		boolean go = true;
-		Color c = StdDraw.BLACK; //Look in documentation file
-		int tool = 0; //0=pen 1=circle
+		Color c = StdDraw.BLACK; // Look in documentation file
+		int tool = 0; // 0=pen 1=circle
 		int radius = 0;
 		double size = 0.02; // Pen Size
 		StdDraw.setPenRadius(size);
